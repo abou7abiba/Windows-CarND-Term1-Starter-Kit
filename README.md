@@ -58,13 +58,13 @@ When I started the installation it gives me a warning that the this software wil
 
 I selected the custom option of the installation and unselected the driver componenets. I also unselected the Other components / NVWMI as it was already installed on my machine 
 
-![Cuda Setup Options](images\cuda-setup-options.PNG)
+![Cuda Setup Options](images/cuda-setup-options.PNG)
 
 Then I selected the paths for the installation (I used to have my personal setup for the paths.)
 
 Finally the result of the installation was as below screen:
 
-![cuda setup final screen](images\cuda-setup-notification.PNG)
+![cuda setup final screen](images/cuda-setup-notification.PNG)
 
 ### 5.2 Validating the CUDA Toolkit installation
 
@@ -73,7 +73,7 @@ To validate that the CUDA Tookit is properly installed I went through the build 
 > **NOTE:** 
 > Please Note that I selected a custom path for the installation as I used to have my own private structure. I think this introduced a problem when I tried to load the solution file.
 
-![Cuda samples folder](images\cuda-sample-folder.PNG)
+![Cuda samples folder](images/cuda-sample-folder.PNG)
 
 When I opened the solution I receved the following error for every project of the 168 projects built.
 
@@ -178,7 +178,7 @@ NOTE: The CUDA Samples are not meant for performance measurements. Results may v
 ## 6. Install cuDNN 7.6.5
 
 As I installed CUDA Toolkit 10.1 I have to install cuDNN v7.6.5 as shown below:
-![cuDNN download for windows](images\cudnn-download.PNG)
+![cuDNN download for windows](images/cudnn-download.PNG)
 
 After downloading it, you will need to extract it to a floder and then you will see the outcome of the following command
 
